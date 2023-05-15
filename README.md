@@ -1,3 +1,5 @@
+#Groupie Tracker
+
 Groupie Trackers consists on receiving a given API and manipulate the data contained in it, in order to create a site, displaying the information.
 
 It is given an API, that consists in four parts:
@@ -12,12 +14,13 @@ And the last one, relation, does the link between all the other parts, artists, 
 
 This project focuses on building a user friendly website where it displays the bands info through several data visualizations.
 
-Usage:
+## Usage:
 1.Enter this command to start the program:
 
 go run .
 2.Open the web browser and go to:
 
 http://127.0.0.1:8080/ or localhost:8080
-Authors:
+
+## Authors:
 zhankin and Smagul.Alkey
