@@ -12,7 +12,7 @@ And the last one, relation, does the link between all the other parts, artists, 
 
 This project focuses on building a user friendly website where it displays the bands info through several data visualizations.
 
-##Usage:
+## Usage:
 1.Enter this command to start the program:
 
 go run .
@@ -20,5 +20,5 @@ go run .
 
 http://127.0.0.1:8080/ or localhost:8080
 
-##Authors:
+## Authors:
 zhankin and Smagul.Alkey
