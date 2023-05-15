@@ -1,23 +1,22 @@
-<!DOCTYPE html>
+{{define "error"}}
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/ui/static/style/normalaize.css">
-    <link rel="stylesheet" href="/ui/static/style/style.css">
-    <link rel="icon" type="image/x-icon" href="/ui/static/img/fav.ico">
-    <title>ERROR: {{.Status}}</title>
+  <link rel="stylesheet" href="../static/error.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groupie-Tracker</title>
 </head>
 <body>
-    <div class="wrapper">
-        {{template "header"}}
-        <main>
-            <div class="container">
-                <p class="status-err">{{.Text}}: {{.Status}}</p>
-            </div>
-        </main>
-        {{template "footer"}}
+    <div class=" container-flex text-center">
+        <div class="error">
+            <a href="/">Groupie-Tracker</a>
+            <h1>{{.Header}}</h1>
+            <h1 class="error">{{.Message}}</h1>
+            <img src="../static/picture/1.jpg" alt="">
+        </div>
     </div>
 </body>
 </html>
+{{end}}
